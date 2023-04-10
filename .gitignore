@@ -1,4 +1,6 @@
+NOTES.md
 go.work
 go.work.off
 go.work.sum
 dist
+auth-example-token-cache.txt
