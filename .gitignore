@@ -4,3 +4,4 @@ go.work.off
 go.work.sum
 dist
 auth-example-token-cache.txt
+build
