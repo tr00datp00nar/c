@@ -16,10 +16,10 @@ import (
 
 	// My local branches
 	"github.com/tr00datp00nar/c/filter"
-	"github.com/tr00datp00nar/c/find"
 
 	// My branches that are live on Github
 	"github.com/tr00datp00nar/file"
+	"github.com/tr00datp00nar/find"
 	"github.com/tr00datp00nar/get"
 	"github.com/tr00datp00nar/mal"
 	"github.com/tr00datp00nar/music"

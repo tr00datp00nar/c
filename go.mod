@@ -16,6 +16,7 @@ require (
 	github.com/rwxrob/uniq v0.5.0
 	github.com/rwxrob/vars v0.6.4
 	github.com/tr00datp00nar/file v0.1.0
+	github.com/tr00datp00nar/find v0.1.0
 	github.com/tr00datp00nar/get v0.0.1
 	github.com/tr00datp00nar/mal v0.0.3
 	github.com/tr00datp00nar/music v0.0.2

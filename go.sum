@@ -235,6 +235,8 @@ github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/stretchr/testify v1.8.2 h1:+h33VjcLVPDHtOdpUCuF+7gSuG3yGIftsP1YvFihtJ8=
+github.com/tr00datp00nar/find v0.1.0 h1:FF5h3xSSkS3JQyVogH+CDJBdCZmjZ7daGpCRWMjcMi0=
+github.com/tr00datp00nar/find v0.1.0/go.mod h1:Oqd+h3XfM2+3gGTwFhinkKi0kCBVcUmI7CePEgxv37k=
 github.com/tr00datp00nar/get v0.0.1 h1:rEaC7Nwmu0BHBOuW2r7Sf9PxboiO8yN8NzjGdm2jHW8=
 github.com/tr00datp00nar/get v0.0.1/go.mod h1:hTukf4qldwxr5UyIz+hcRbp97yZMT2nnnXMR7UXG8zg=
 github.com/tr00datp00nar/mal v0.0.3 h1:WI3Kj0aeYAOg0mFMMloZZ1x4CpIBFoksv7+QeXVVJCw=
