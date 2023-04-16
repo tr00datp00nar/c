@@ -74,6 +74,7 @@ var Cmd = &Z.Cmd{
 		`bond`:     {`filter`, `bon`, `deps`},
 		`bonf`:     {`filter`, `bon`, `full`},
 		`bonq`:     {`filter`, `bon`, `quick`},
+		`bonbr`:    {`filter`, `bon`, `branchreadme`},
 		`netcheck`: {`get`, `net`, `check`},
 		`lan`:      {`get`, `net`, `lan`},
 		`wan`:      {`get`, `net`, `wan`},
@@ -84,6 +85,7 @@ var Cmd = &Z.Cmd{
 		`sw`:       {`find`, `web`},
 		`swb`:      {`find`, `web`, `brave`},
 		`swyt`:     {`find`, `web`, `youtube`},
+		`animerec`: {`mal`, `anime`, `rec`},
 		`waifus`:   {`set`, `wallpaper`, `waifus`},
 	},
 }
