@@ -18,6 +18,8 @@ import (
 	"github.com/tr00datp00nar/c/filter"
 
 	// My branches that are live on Github
+
+	"github.com/tr00datp00nar/bon"
 	"github.com/tr00datp00nar/file"
 	"github.com/tr00datp00nar/find"
 	"github.com/tr00datp00nar/get"
@@ -55,6 +57,7 @@ var Cmd = &Z.Cmd{
 	Issues:      `github.com/tr00datp00nar/c/issues`,
 
 	Commands: []*Z.Cmd{
+		bon.Cmd,
 		conf.Cmd,
 		file.Cmd,
 		filter.Cmd,
@@ -71,10 +74,10 @@ var Cmd = &Z.Cmd{
 	},
 
 	Shortcuts: Z.ArgMap{
-		`bond`:     {`filter`, `bon`, `deps`},
-		`bonf`:     {`filter`, `bon`, `full`},
-		`bonq`:     {`filter`, `bon`, `quick`},
-		`bonbr`:    {`filter`, `bon`, `branchreadme`},
+		`bond`:     {`bon`, `deps`},
+		`bonf`:     {`bon`, `full`},
+		`bonq`:     {`bon`, `quick`},
+		`bonbr`:    {`bon`, `branchreadme`},
 		`netcheck`: {`get`, `net`, `check`},
 		`lan`:      {`get`, `net`, `lan`},
 		`wan`:      {`get`, `net`, `wan`},
