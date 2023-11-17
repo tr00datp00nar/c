@@ -10,6 +10,7 @@ import (
 	// Branches by rwxrob
 	"github.com/rwxrob/conf"
 	"github.com/rwxrob/good" // Common Go tools
+	"github.com/rwxrob/grep"
 	"github.com/rwxrob/help" // All-in-one Help package
 	"github.com/rwxrob/uniq" // Generate unique strings and numbers
 	"github.com/rwxrob/vars" // Manage vars like env vars in bonzai
@@ -64,6 +65,7 @@ var Cmd = &Z.Cmd{
 		find.Cmd,
 		get.Cmd,
 		good.Cmd,
+		grep.Cmd,
 		help.Cmd,
 		mal.Cmd,
 		music.Cmd,

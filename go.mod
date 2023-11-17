@@ -4,15 +4,19 @@ go 1.19
 
 replace github.com/tr00datp00nar/file => /home/micah/Repos/github.com/tr00datp00nar/file/
 
+replace github.com/tr00datp00nar/bon => /home/micah/Repos/github.com/tr00datp00nar/bon/
+
 require (
 	github.com/gosimple/slug v1.13.1
 	github.com/rwxrob/bonzai v0.20.10
 	github.com/rwxrob/conf v0.8.2
 	github.com/rwxrob/good v0.1.4
+	github.com/rwxrob/grep v0.2.5
 	github.com/rwxrob/help v0.7.2
 	github.com/rwxrob/term v0.2.9
 	github.com/rwxrob/uniq v0.5.0
 	github.com/rwxrob/vars v0.6.4
+	github.com/tr00datp00nar/bon v0.0.0-00010101000000-000000000000
 	github.com/tr00datp00nar/file v0.1.0
 	github.com/tr00datp00nar/find v0.1.0
 	github.com/tr00datp00nar/get v0.0.1
@@ -40,7 +44,7 @@ require (
 	github.com/go-logfmt/logfmt v0.6.0 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
 	github.com/goccy/go-yaml v1.11.0 // indirect
-	github.com/golang/protobuf v1.5.3 // indirect
+	github.com/golang/protobuf v1.4.2 // indirect
 	github.com/gosimple/unidecode v1.0.1 // indirect
 	github.com/icelain/jokeapi v0.0.0-20221203150936-7f9bde47b3c5 // indirect
 	github.com/jinzhu/copier v0.3.5 // indirect
@@ -53,7 +57,7 @@ require (
 	github.com/mikefarah/yq/v4 v4.33.3 // indirect
 	github.com/muesli/reflow v0.3.0 // indirect
 	github.com/muesli/termenv v0.15.1 // indirect
-	github.com/nstratos/go-myanimelist v0.9.5 // indirect
+	github.com/nstratos/go-myanimelist v0.9.4 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.7 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
 	github.com/rogpeppe/go-internal v1.10.0 // indirect
@@ -69,13 +73,13 @@ require (
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e // indirect
 	golang.org/x/crypto v0.8.0 // indirect
 	golang.org/x/net v0.9.0 // indirect
-	golang.org/x/oauth2 v0.7.0 // indirect
+	golang.org/x/oauth2 v0.0.0-20200902213428-5d25da1a8d43 // indirect
 	golang.org/x/sys v0.7.0 // indirect
 	golang.org/x/term v0.7.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
-	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/protobuf v1.30.0 // indirect
+	google.golang.org/appengine v1.6.6 // indirect
+	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/op/go-logging.v1 v1.0.0-20160211212156-b2cb9fa56473 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
