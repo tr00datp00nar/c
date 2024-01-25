@@ -52,7 +52,7 @@ var Cmd = &Z.Cmd{
 	Summary:     help.S(_c),
 	Description: help.D(_c),
 	Copyright:   `Copyright 2023 Micah Nadler`,
-	Version:     `v0.1.0`,
+	Version:     `v0.1.1`,
 	License:     `Apache-2.0`,
 	Source:      `git@github.com:tr00datp00nar/c.git`,
 	Issues:      `github.com/tr00datp00nar/c/issues`,
