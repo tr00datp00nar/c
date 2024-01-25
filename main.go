@@ -86,6 +86,7 @@ var Cmd = &Z.Cmd{
 		`mac`:      {`get`, `net`, `mac`},
 		`dns`:      {`get`, `net`, `dns`},
 		`router`:   {`get`, `net`, `router`},
+		`wifipass`: {`get`, `net`, `wifipass`},
 		`manga`:    {`get`, `manga`},
 		`sw`:       {`find`, `web`},
 		`swb`:      {`find`, `web`, `brave`},
