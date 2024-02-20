@@ -1,12 +1,12 @@
 module github.com/tr00datp00nar/c
 
-go 1.21
-
-toolchain go1.21.0
+go 1.21.6
 
 replace github.com/tr00datp00nar/file => /home/micah/Repos/github.com/tr00datp00nar/file/
 
 replace github.com/tr00datp00nar/bon => /home/micah/Repos/github.com/tr00datp00nar/bon/
+
+replace github.com/tr00datp00nar/worldbuilding => /home/micah/Repos/github.com/tr00datp00nar/worldbuilding
 
 require (
 	github.com/gosimple/slug v1.13.1
@@ -26,6 +26,7 @@ require (
 	github.com/tr00datp00nar/music v0.0.2
 	github.com/tr00datp00nar/rank v0.0.2
 	github.com/tr00datp00nar/set v0.0.2
+	github.com/tr00datp00nar/worldbuilding v0.0.0-00010101000000-000000000000
 )
 
 require (
@@ -61,7 +62,7 @@ require (
 	github.com/muesli/termenv v0.15.2 // indirect
 	github.com/nstratos/go-myanimelist v0.9.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.1.1 // indirect
-	github.com/rivo/uniseg v0.4.4 // indirect
+	github.com/rivo/uniseg v0.4.6 // indirect
 	github.com/rogpeppe/go-internal v1.12.0 // indirect
 	github.com/rwxrob/compcmd v0.3.0 // indirect
 	github.com/rwxrob/compfile v0.1.12 // indirect

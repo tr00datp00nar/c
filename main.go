@@ -17,6 +17,8 @@ import (
 
 	// My local branches
 	"github.com/tr00datp00nar/c/filter"
+	"github.com/tr00datp00nar/c/obsidian"
+	"github.com/tr00datp00nar/c/zet"
 
 	// My branches that are live on Github
 
@@ -28,6 +30,7 @@ import (
 	"github.com/tr00datp00nar/music"
 	"github.com/tr00datp00nar/rank"
 	"github.com/tr00datp00nar/set"
+	"github.com/tr00datp00nar/worldbuilding"
 )
 
 func init() {
@@ -69,10 +72,13 @@ var Cmd = &Z.Cmd{
 		help.Cmd,
 		mal.Cmd,
 		music.Cmd,
+		obsidian.Cmd,
 		rank.Cmd,
 		set.Cmd,
 		uniq.Cmd,
 		vars.Cmd,
+		worldbuilding.Cmd,
+		zet.Cmd,
 	},
 
 	Shortcuts: Z.ArgMap{
@@ -88,10 +94,13 @@ var Cmd = &Z.Cmd{
 		`router`:   {`get`, `net`, `router`},
 		`wifipass`: {`get`, `net`, `wifipass`},
 		`manga`:    {`get`, `manga`},
+		`newworld`: {`worldbuilding`, `new-world`},
 		`sw`:       {`find`, `web`},
 		`swb`:      {`find`, `web`, `brave`},
 		`swyt`:     {`find`, `web`, `youtube`},
 		`animerec`: {`mal`, `anime`, `rec`},
 		`waifus`:   {`set`, `wallpaper`, `waifus`},
+		`z`:        {`zet`, `newZet`},
+		`zo`:       {`zet`, `zetObsidian`},
 	},
 }
