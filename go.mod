@@ -8,17 +8,15 @@ replace github.com/tr00datp00nar/bon => /home/micah/Repos/github.com/tr00datp00n
 
 replace github.com/tr00datp00nar/worldbuilding => /home/micah/Repos/github.com/tr00datp00nar/worldbuilding
 
+replace github.com/tr00datp00nar/obsdn => /home/micah/Repos/github.com/tr00datp00nar/obsdn
+
 require (
-	github.com/charmbracelet/bubbles v0.18.0
-	github.com/charmbracelet/bubbletea v0.25.0
-	github.com/gosimple/slug v1.13.1
 	github.com/rwxrob/bonzai v0.20.10
 	github.com/rwxrob/conf v0.8.2
 	github.com/rwxrob/good v0.1.4
 	github.com/rwxrob/grep v0.2.5
 	github.com/rwxrob/help v0.7.2
 	github.com/rwxrob/keg v0.9.2
-	github.com/rwxrob/term v0.2.9
 	github.com/rwxrob/uniq v0.5.0
 	github.com/rwxrob/vars v0.6.4
 	github.com/tr00datp00nar/bon v0.0.1
@@ -27,6 +25,7 @@ require (
 	github.com/tr00datp00nar/get v0.0.1
 	github.com/tr00datp00nar/mal v0.0.3
 	github.com/tr00datp00nar/music v0.0.2
+	github.com/tr00datp00nar/obsdn v0.0.0-00010101000000-000000000000
 	github.com/tr00datp00nar/rank v0.0.2
 	github.com/tr00datp00nar/set v0.0.2
 	github.com/tr00datp00nar/worldbuilding v0.0.0-00010101000000-000000000000
@@ -42,10 +41,8 @@ require (
 	github.com/charmbracelet/lipgloss v0.9.1 // indirect
 	github.com/charmbracelet/log v0.3.1 // indirect
 	github.com/chzyer/readline v1.5.1 // indirect
-	github.com/containerd/console v1.0.4-0.20230313162750-1ae8d489ac81 // indirect
 	github.com/dimchansky/utfbom v1.1.1 // indirect
 	github.com/dlclark/regexp2 v1.7.0 // indirect
-	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/elliotchance/orderedmap v1.5.1 // indirect
 	github.com/fatih/color v1.16.0 // indirect
 	github.com/ganbarodigital/go_envish/v3 v3.0.1 // indirect
@@ -58,7 +55,6 @@ require (
 	github.com/goccy/go-yaml v1.11.2 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/gorilla/css v1.0.0 // indirect
-	github.com/gosimple/unidecode v1.0.1 // indirect
 	github.com/icelain/jokeapi v0.0.0-20231230033402-6b33385a18f7 // indirect
 	github.com/jinzhu/copier v0.4.0 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
@@ -67,12 +63,9 @@ require (
 	github.com/manifoldco/promptui v0.9.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
-	github.com/mattn/go-localereader v0.0.1 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/microcosm-cc/bluemonday v1.0.21 // indirect
 	github.com/mikefarah/yq/v4 v4.40.5 // indirect
-	github.com/muesli/ansi v0.0.0-20211018074035-2e021307bc4b // indirect
-	github.com/muesli/cancelreader v0.2.2 // indirect
 	github.com/muesli/reflow v0.3.0 // indirect
 	github.com/muesli/termenv v0.15.2 // indirect
 	github.com/nstratos/go-myanimelist v0.9.5 // indirect
@@ -88,6 +81,7 @@ require (
 	github.com/rwxrob/json v0.8.0 // indirect
 	github.com/rwxrob/pegn v0.2.1 // indirect
 	github.com/rwxrob/structs v0.6.0 // indirect
+	github.com/rwxrob/term v0.2.9 // indirect
 	github.com/rwxrob/to v0.12.1 // indirect
 	github.com/rwxrob/yq v0.3.2 // indirect
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e // indirect
@@ -98,7 +92,6 @@ require (
 	golang.org/x/exp v0.0.0-20240119083558-1b970713d09a // indirect
 	golang.org/x/net v0.20.0 // indirect
 	golang.org/x/oauth2 v0.16.0 // indirect
-	golang.org/x/sync v0.6.0 // indirect
 	golang.org/x/sys v0.16.0 // indirect
 	golang.org/x/term v0.16.0 // indirect
 	golang.org/x/text v0.14.0 // indirect

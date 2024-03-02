@@ -16,10 +16,6 @@ import (
 	"github.com/rwxrob/uniq" // Generate unique strings and numbers
 	"github.com/rwxrob/vars" // Manage vars like env vars in bonzai
 
-	// My local branches
-	"github.com/tr00datp00nar/c/filter"
-	"github.com/tr00datp00nar/c/zet"
-
 	// My branches that are live on Github
 
 	"github.com/tr00datp00nar/bon"
@@ -28,7 +24,6 @@ import (
 	"github.com/tr00datp00nar/get"
 	"github.com/tr00datp00nar/mal"
 	"github.com/tr00datp00nar/music"
-
 	"github.com/tr00datp00nar/obsdn"
 	"github.com/tr00datp00nar/rank"
 	"github.com/tr00datp00nar/set"
@@ -57,7 +52,7 @@ var Cmd = &Z.Cmd{
 	Summary:     help.S(_c),
 	Description: help.D(_c),
 	Copyright:   `Copyright 2023 Micah Nadler`,
-	Version:     `v0.1.1`,
+	Version:     `v0.1.2`,
 	License:     `Apache-2.0`,
 	Source:      `git@github.com:tr00datp00nar/c.git`,
 	Issues:      `github.com/tr00datp00nar/c/issues`,
@@ -66,7 +61,6 @@ var Cmd = &Z.Cmd{
 		bon.Cmd,
 		conf.Cmd,
 		file.Cmd,
-		filter.Cmd,
 		find.Cmd,
 		get.Cmd,
 		good.Cmd,
@@ -81,7 +75,6 @@ var Cmd = &Z.Cmd{
 		uniq.Cmd,
 		vars.Cmd,
 		worldbuilding.Cmd,
-		zet.Cmd,
 	},
 
 	Shortcuts: Z.ArgMap{
@@ -107,7 +100,5 @@ var Cmd = &Z.Cmd{
 		`swyt`:     {`find`, `web`, `youtube`},
 		`animerec`: {`mal`, `anime`, `rec`},
 		`waifus`:   {`set`, `wallpaper`, `waifus`},
-		`z`:        {`zet`, `new`},
-		`zo`:       {`zet`, `obsidian`},
 	},
 }
