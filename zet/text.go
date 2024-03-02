@@ -5,8 +5,11 @@ import _ "embed"
 //go:embed text/en/zet.md
 var _zet string
 
-//go:embed text/en/newZet.md
-var _newZet string
+//go:embed text/en/new.md
+var _new string
 
-//go:embed text/en/zetObsidian.md
-var _zetObsidian string
+//go:embed text/en/update.md
+var _update string
+
+//go:embed text/en/edit.md
+var _edit string

@@ -17,42 +17,62 @@ var Cmd = &Z.Cmd{
 
 	Commands: []*Z.Cmd{
 		help.Cmd,
-		newZet,
-		zetObsidian},
+		edit,
+		new,
+		update},
 }
 
-var newZet = &Z.Cmd{
-	Name:        `newZet`,
+var new = &Z.Cmd{
+	Name:        `new`,
 	Aliases:     []string{``},
 	Usage:       `[help]`,
 	Version:     `v0.0.1`,
 	Copyright:   `Copyright Micah Nadler 2023`,
 	License:     `Apache-2.0`,
-	Summary:     help.S(_newZet),
-	Description: help.D(_newZet),
+	Summary:     help.S(_new),
+	Description: help.D(_new),
 
 	Commands: []*Z.Cmd{help.Cmd},
 
 	Call: func(_ *Z.Cmd, args ...string) error {
-		NewZet()
+		newZet()
 		return nil
 	},
 }
 
-var zetObsidian = &Z.Cmd{
-	Name:        `zetObsidian`,
+var update = &Z.Cmd{
+	Name:        `update`,
 	Aliases:     []string{``},
 	Usage:       `[help]`,
 	Version:     `v0.0.1`,
 	Copyright:   `Copyright Micah Nadler 2023`,
 	License:     `Apache-2.0`,
-	Summary:     help.S(_zetObsidian),
-	Description: help.D(_zetObsidian),
+	Summary:     help.S(_update),
+	Description: help.D(_update),
 
 	Commands: []*Z.Cmd{help.Cmd},
 
-	Call: func(x *Z.Cmd, args ...string) error {
-		ZetObsidian()
+	Call: func(_ *Z.Cmd, args ...string) error {
+		dir := ZetDir
+		updateIndexList(dir)
+		return nil
+	},
+}
+
+var edit = &Z.Cmd{
+	Name:        `edit`,
+	Aliases:     []string{``},
+	Usage:       `[help]`,
+	Version:     `v0.0.1`,
+	Copyright:   `Copyright Micah Nadler 2023`,
+	License:     `Apache-2.0`,
+	Summary:     help.S(_edit),
+	Description: help.D(_edit),
+
+	Commands: []*Z.Cmd{help.Cmd},
+
+	Call: func(_ *Z.Cmd, args ...string) error {
+		filePicker()
 		return nil
 	},
 }

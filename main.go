@@ -12,12 +12,12 @@ import (
 	"github.com/rwxrob/good" // Common Go tools
 	"github.com/rwxrob/grep"
 	"github.com/rwxrob/help" // All-in-one Help package
+	"github.com/rwxrob/keg"
 	"github.com/rwxrob/uniq" // Generate unique strings and numbers
 	"github.com/rwxrob/vars" // Manage vars like env vars in bonzai
 
 	// My local branches
 	"github.com/tr00datp00nar/c/filter"
-	"github.com/tr00datp00nar/c/obsidian"
 	"github.com/tr00datp00nar/c/zet"
 
 	// My branches that are live on Github
@@ -28,6 +28,8 @@ import (
 	"github.com/tr00datp00nar/get"
 	"github.com/tr00datp00nar/mal"
 	"github.com/tr00datp00nar/music"
+
+	"github.com/tr00datp00nar/obsdn"
 	"github.com/tr00datp00nar/rank"
 	"github.com/tr00datp00nar/set"
 	"github.com/tr00datp00nar/worldbuilding"
@@ -70,9 +72,10 @@ var Cmd = &Z.Cmd{
 		good.Cmd,
 		grep.Cmd,
 		help.Cmd,
+		keg.Cmd,
 		mal.Cmd,
 		music.Cmd,
-		obsidian.Cmd,
+		obsdn.Cmd,
 		rank.Cmd,
 		set.Cmd,
 		uniq.Cmd,
@@ -95,12 +98,16 @@ var Cmd = &Z.Cmd{
 		`wifipass`: {`get`, `net`, `wifipass`},
 		`manga`:    {`get`, `manga`},
 		`newworld`: {`worldbuilding`, `new-world`},
+		`nvim`:     {`get`, `nvim`},
+		`ob`:       {`obsidian`},
+		`ofile`:    {`obsidian`, `open`, `file`},
+		`ovault`:   {`obsidian`, `open`, `vault`},
 		`sw`:       {`find`, `web`},
 		`swb`:      {`find`, `web`, `brave`},
 		`swyt`:     {`find`, `web`, `youtube`},
 		`animerec`: {`mal`, `anime`, `rec`},
 		`waifus`:   {`set`, `wallpaper`, `waifus`},
-		`z`:        {`zet`, `newZet`},
-		`zo`:       {`zet`, `zetObsidian`},
+		`z`:        {`zet`, `new`},
+		`zo`:       {`zet`, `obsidian`},
 	},
 }
